@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#0b5149" name="theme-color"/>
+<meta content="济州岛旅行韩语手机学习工具：6章76句，覆盖交通、酒店、餐厅、购物、景点、体验项目和问题处理。" name="description"/>
+<title>韩语口袋</title>
+<meta content="韩语口袋" name="application-name"/>
+<meta content="韩语口袋" name="apple-mobile-web-app-title"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+
+
+
+<link href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%0A%20%20%3Crect%20width%3D%22512%22%20height%3D%22512%22%20rx%3D%22112%22%20fill%3D%22%230b5149%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M102%20122h308v205c0%2041-83%2089-154%20111-71-22-154-70-154-111Z%22%20fill%3D%22%23f2c66d%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M124%20149h264%22%20stroke%3D%22%230b5149%22%20stroke-width%3D%2212%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%3Cg%20fill%3D%22none%22%20stroke%3D%22%230b5149%22%20stroke-width%3D%2214%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M178%20205h38m-58%2025h78%22%2F%3E%0A%20%20%20%20%3Cellipse%20cx%3D%22197%22%20cy%3D%22267%22%20rx%3D%2229%22%20ry%3D%2222%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M261%20210v91m0-48h25m-113%2061v35h100%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M312%20242q19%2020%200%2040m22-56q34%2036%200%2072%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E" rel="icon" type="image/svg+xml"/>
+<link href="./assets/app.css" rel="stylesheet"/>
+<link href="./assets/quiz.css" rel="stylesheet"/>
+<link href="./assets/pocket.svg" rel="icon" type="image/svg+xml"/><link href="./assets/pocket.svg" rel="apple-touch-icon"/></head>
+<body>
+<header class="topbar">
+<div class="brand">
+<img alt="韩语口袋图标" class="brand-mark" src="./assets/pocket.svg"/>
+<div><strong>韩语口袋</strong><small>하루 한 걸음 · 每天学一点</small></div>
+</div>
+<button aria-label="搜索全部句子" class="icon-btn" id="openSearch">⌕</button>
+</header>
+<main>
+<section aria-labelledby="heroTitle" class="hero">
+<img alt="济州岛海岸与柱状节理" src="./assets/cover.jpg"/>
+<div class="hero-overlay"></div>
+<div class="hero-copy">
+<p class="eyebrow">JEJU TRAVEL KOREAN</p>
+<h1 id="heroTitle">今天学完，旅行就能开口</h1>
+<p id="todaySummary">找座、点餐、调整口味和结账</p>
+</div>
+<div class="progress-card">
+<div><span id="progressCount">0</span><small>已掌握</small></div>
+<div class="progress-track"><span id="progressBar" style="width: 0%;"></span></div>
+<div><span id="progressPercent">0%</span><small>总进度</small></div>
+</div>
+</section>
+<nav aria-label="学习模式" class="mode-tabs">
+<button class="tab active" data-view="learn">今日学习</button>
+<button class="tab" data-view="courses">全部课程</button>
+<button class="tab" data-view="review">收藏复习</button>
+</nav>
+<section class="view active" id="learnView">
+<div class="lesson-head">
+<button aria-label="上一课" class="round-btn" id="prevLesson">←</button>
+<div>
+<span class="lesson-day" id="lessonDay">DAY 04</span>
+<h2 id="lessonTitle">餐厅、咖啡馆与便利店</h2>
+<p id="lessonMeta">14句 · 找座、点餐、调整口味和结账</p>
+</div>
+<button aria-label="下一课" class="round-btn" id="nextLesson">→</button>
+</div>
+<div class="study-controls">
+<button class="chip active" id="toggleMeaning">显示中文</button>
+<button class="chip active" id="toggleRoman">显示读音</button>
+<button class="chip" id="playLesson">▶ 连续播放</button>
+</div>
+<div class="phrase-list" id="phraseList"><article class="phrase-card" data-id="3-0"><div class="phrase-top"><span class="phrase-index">01</span><div class="phrase-copy"><div class="korean">세 명 자리 있어요?</div><div class="roman">se myeong ja ri i sseo yo?</div><div class="meaning">有三个人的位置吗？</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EC%84%B8%20%EB%AA%85%20%EC%9E%90%EB%A6%AC%20%EC%9E%88%EC%96%B4%EC%9A%94%3F">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-0">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-0">拆解学习</button><button class="done-btn" data-done="3-0">标记掌握</button></div></article><article class="phrase-card" data-id="3-1"><div class="phrase-top"><span class="phrase-index">02</span><div class="phrase-copy"><div class="korean">얼마나 기다려야 해요?</div><div class="roman">eol ma na gi da ryeo ya hae yo?</div><div class="meaning">需要等多久？</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EC%96%BC%EB%A7%88%EB%82%98%20%EA%B8%B0%EB%8B%A4%EB%A0%A4%EC%95%BC%20%ED%95%B4%EC%9A%94%3F">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-1">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-1">拆解学习</button><button class="done-btn" data-done="3-1">标记掌握</button></div></article><article class="phrase-card" data-id="3-2"><div class="phrase-top"><span class="phrase-index">03</span><div class="phrase-copy"><div class="korean">메뉴판 주세요.</div><div class="roman">me nyu pan ju se yo.</div><div class="meaning">请给我菜单。</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EB%A9%94%EB%89%B4%ED%8C%90%20%EC%A3%BC%EC%84%B8%EC%9A%94.">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-2">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-2">拆解学习</button><button class="done-btn" data-done="3-2">标记掌握</button></div></article><article class="phrase-card" data-id="3-3"><div class="phrase-top"><span class="phrase-index">04</span><div class="phrase-copy"><div class="korean">추천 메뉴가 뭐예요?</div><div class="roman">chu cheon me nyu ga mwo ye yo?</div><div class="meaning">有什么推荐菜？</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EC%B6%94%EC%B2%9C%20%EB%A9%94%EB%89%B4%EA%B0%80%20%EB%AD%90%EC%98%88%EC%9A%94%3F">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-3">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-3">拆解学习</button><button class="done-btn" data-done="3-3">标记掌握</button></div></article><article class="phrase-card" data-id="3-4"><div class="phrase-top"><span class="phrase-index">05</span><div class="phrase-copy"><div class="korean">이거 하나 주세요.</div><div class="roman">i geo ha na ju se yo.</div><div class="meaning">请给我一份这个。</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EC%9D%B4%EA%B1%B0%20%ED%95%98%EB%82%98%20%EC%A3%BC%EC%84%B8%EC%9A%94.">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-4">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-4">拆解学习</button><button class="done-btn" data-done="3-4">标记掌握</button></div></article><article class="phrase-card" data-id="3-5"><div class="phrase-top"><span class="phrase-index">06</span><div class="phrase-copy"><div class="korean">그거 세 개 주세요.</div><div class="roman">geu geo se gae ju se yo.</div><div class="meaning">请给我三个那个。</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EA%B7%B8%EA%B1%B0%20%EC%84%B8%20%EA%B0%9C%20%EC%A3%BC%EC%84%B8%EC%9A%94.">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-5">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-5">拆解学习</button><button class="done-btn" data-done="3-5">标记掌握</button></div></article><article class="phrase-card" data-id="3-6"><div class="phrase-top"><span class="phrase-index">07</span><div class="phrase-copy"><div class="korean">여기서 먹을게요.</div><div class="roman">yeo gi seo meo geul ge yo.</div><div class="meaning">我们在这里吃。</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EC%97%AC%EA%B8%B0%EC%84%9C%20%EB%A8%B9%EC%9D%84%EA%B2%8C%EC%9A%94.">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-6">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-6">拆解学习</button><button class="done-btn" data-done="3-6">标记掌握</button></div></article><article class="phrase-card" data-id="3-7"><div class="phrase-top"><span class="phrase-index">08</span><div class="phrase-copy"><div class="korean">포장할게요.</div><div class="roman">po jang hal ge yo.</div><div class="meaning">我要外带。</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%ED%8F%AC%EC%9E%A5%ED%95%A0%EA%B2%8C%EC%9A%94.">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-7">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-7">拆解学习</button><button class="done-btn" data-done="3-7">标记掌握</button></div></article><article class="phrase-card" data-id="3-8"><div class="phrase-top"><span class="phrase-index">09</span><div class="phrase-copy"><div class="korean">계산해 주세요.</div><div class="roman">gye san hae ju se yo.</div><div class="meaning">请结账。</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EA%B3%84%EC%82%B0%ED%95%B4%20%EC%A3%BC%EC%84%B8%EC%9A%94.">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-8">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-8">拆解学习</button><button class="done-btn" data-done="3-8">标记掌握</button></div></article><article class="phrase-card" data-id="3-9"><div class="phrase-top"><span class="phrase-index">10</span><div class="phrase-copy"><div class="korean">얼음 빼 주세요.</div><div class="roman">eo reum ppae ju se yo.</div><div class="meaning">请去冰。</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EC%96%BC%EC%9D%8C%20%EB%B9%BC%20%EC%A3%BC%EC%84%B8%EC%9A%94.">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-9">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-9">拆解学习</button><button class="done-btn" data-done="3-9">标记掌握</button></div></article><article class="phrase-card" data-id="3-10"><div class="phrase-top"><span class="phrase-index">11</span><div class="phrase-copy"><div class="korean">이거 데워 주세요.</div><div class="roman">i geo de wo ju se yo.</div><div class="meaning">请帮我加热这个。</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EC%9D%B4%EA%B1%B0%20%EB%8D%B0%EC%9B%8C%20%EC%A3%BC%EC%84%B8%EC%9A%94.">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-10">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-10">拆解学习</button><button class="done-btn" data-done="3-10">标记掌握</button></div></article><article class="phrase-card" data-id="3-11"><div class="phrase-top"><span class="phrase-index">12</span><div class="phrase-copy"><div class="korean">봉투 하나 주세요.</div><div class="roman">bong tu ha na ju se yo.</div><div class="meaning">请给我一个袋子。</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EB%B4%89%ED%88%AC%20%ED%95%98%EB%82%98%20%EC%A3%BC%EC%84%B8%EC%9A%94.">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-11">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-11">拆解学习</button><button class="done-btn" data-done="3-11">标记掌握</button></div></article><article class="phrase-card" data-id="3-12"><div class="phrase-top"><span class="phrase-index">13</span><div class="phrase-copy"><div class="korean">고수는 빼 주세요.</div><div class="roman">go su neun ppae ju se yo.</div><div class="meaning">请不要加香菜。</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EA%B3%A0%EC%88%98%EB%8A%94%20%EB%B9%BC%20%EC%A3%BC%EC%84%B8%EC%9A%94.">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-12">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-12">拆解学习</button><button class="done-btn" data-done="3-12">标记掌握</button></div></article><article class="phrase-card" data-id="3-13"><div class="phrase-top"><span class="phrase-index">14</span><div class="phrase-copy"><div class="korean">이거 정말 맛있어요.</div><div class="roman">i geo jeong mal ma si sseo yo.</div><div class="meaning">这个真的很好吃。</div></div></div><div class="phrase-actions"><button aria-label="播放韩语" class="sound-btn" data-speak="%EC%9D%B4%EA%B1%B0%20%EC%A0%95%EB%A7%90%20%EB%A7%9B%EC%9E%88%EC%96%B4%EC%9A%94.">▶</button><button aria-label="收藏" class="fav-btn" data-fav="3-13">★</button></div><div class="card-tools"><button class="breakdown-btn" data-break="3-13">拆解学习</button><button class="done-btn" data-done="3-13">标记掌握</button></div></article></div>
+<button class="complete-btn" id="completeLesson">完成今天的学习 · 开始检测</button>
+</section>
+<section class="view" id="coursesView">
+<div class="section-title"><div><span>6 LESSONS · 76 PHRASES</span><h2>旅行场景课程</h2></div><p>从高频通用表达，到济州岛实用场景</p></div>
+<div class="course-grid" id="courseGrid"><button class="course-card" data-course="0"><span class="course-num">01</span><div><h3>💬 万能开口与友好表达</h3><p>礼貌开口、确认信息，也把喜欢说出来</p></div><span class="course-stat">0/18</span></button><button class="course-card" data-course="1"><span class="course-num">02</span><div><h3>🚌 问路、公交与打车</h3><p>找到方向、乘车并顺利抵达目的地</p></div><span class="course-stat">0/10</span></button><button class="course-card" data-course="2"><span class="course-num">03</span><div><h3>🏨 机场、酒店与行李</h3><p>值机、入住、寄存和房间沟通</p></div><span class="course-stat">0/10</span></button><button class="course-card" data-course="3"><span class="course-num">04</span><div><h3>🍲 餐厅、咖啡馆与便利店</h3><p>找座、点餐、调整口味和结账</p></div><span class="course-stat">0/14</span></button><button class="course-card" data-course="4"><span class="course-num">05</span><div><h3>🛍 购物、Vintage店与退税</h3><p>试穿、讲价、付款和表达祝福</p></div><span class="course-stat">0/14</span></button><button class="course-card" data-course="5"><span class="course-num">06</span><div><h3>⛴ 景点、牛岛与体验项目</h3><p>门票、寄存、拍照、游玩感受与问题求助</p></div><span class="course-stat">0/10</span></button></div>
+</section>
+<section class="view" id="reviewView">
+<div class="section-title"><div><span>MY REVIEW</span><h2>收藏与复习</h2></div><p>点星收藏，随时回来巩固</p></div>
+<div class="review-actions">
+<button class="secondary-btn" id="randomReview">随机抽一句</button>
+<button class="text-btn" id="clearProgress">重置学习记录</button>
+</div>
+<div class="phrase-list" id="reviewList"><div class="empty"><strong>还没有收藏</strong>学习时点亮星星，重点句会出现在这里。</div></div>
+</section>
+</main>
+<dialog id="searchDialog">
+<div class="dialog-head"><h2>搜索全部句子</h2><button aria-label="关闭" id="closeSearch">×</button></div>
+<input autocomplete="off" id="searchInput" placeholder="搜中文、韩文或场景……" type="search"/>
+<p class="search-meta" id="searchMeta"></p>
+<div class="search-results" id="searchResults"></div>
+</dialog>
+<dialog class="quiz-dialog" id="quizDialog">
+<div class="quiz-shell">
+<div class="quiz-top">
+<button aria-label="退出检测" class="quiz-close" id="closeQuiz">×</button>
+<div class="quiz-track"><span id="quizProgress"></span></div>
+<span id="quizCount">0/0</span>
+</div>
+<div class="quiz-body" id="quizBody">
+<p class="quiz-kicker">请用韩语说出</p>
+<h2 id="quizChinese"></h2>
+<p id="quizHint">点击麦克风后开始朗读</p>
+<button aria-label="开始口语识别" class="quiz-mic" id="quizMic"><span>🎙</span><b>开始朗读</b></button>
+<div aria-live="polite" class="quiz-heard" id="quizHeard"></div>
+<div class="quiz-answer" hidden="" id="quizAnswer">
+<strong id="quizKorean"></strong>
+<span id="quizRoman"></span>
+<button id="quizListen" type="button">▶ 听女声示范</button>
+</div>
+<div class="quiz-fallback" hidden="" id="quizFallback">
+<button id="quizSelfCorrect" type="button">我读对了</button>
+<button id="quizTryAgain" type="button">再练一次</button>
+</div>
+</div>
+<div class="quiz-success" hidden="" id="quizSuccess">
+<div class="success-badge">✓</div>
+<p>DAY <span id="successDay"></span> 已通过</p>
+<h2>今天的句子全部答对了</h2>
+<span id="successDetail"></span>
+<button id="finishQuiz" type="button">完成</button>
+</div>
+</div>
+</dialog>
+<dialog class="breakdown-dialog" id="breakdownDialog">
+<div class="breakdown-head">
+<div><small>句子拆解</small><h2 id="breakdownTitle"></h2></div>
+<button aria-label="关闭句子拆解" id="closeBreakdown">×</button>
+</div>
+<div class="breakdown-summary">
+<p id="breakdownRoman"></p>
+<strong id="breakdownMeaning"></strong>
+<button id="playBreakdownSentence" type="button">▶ 整句跟读</button>
+</div>
+<section class="breakdown-section">
+<div class="breakdown-label"><span>01</span><h3>逐词理解</h3></div>
+<p class="breakdown-guide">点击每个词，可以单独听发音</p>
+<div class="breakdown-words" id="breakdownWords"></div>
+</section>
+<section class="breakdown-section">
+<div class="breakdown-label"><span>02</span><h3>句型提示</h3></div>
+<div class="grammar-list" id="breakdownGrammar"></div>
+</section>
+<button class="word-play-all" id="playBreakdownWords" type="button">▶ 逐词慢速跟读</button>
+</dialog>
+<div aria-live="polite" id="toast" role="status"></div>
+<script src="./assets/app.js"></script>
+
+</body></html>
