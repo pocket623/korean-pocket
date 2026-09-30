@@ -53,7 +53,7 @@ const archivedLessons = [
 ];
 
 const previousLessons = [
-  {title:'万能开口与友好表达',icon:'💬',desc:'礼貌开口、确认信息，也把喜欢说出来',phrases:[
+  {title:'万能开口与友好表达',icon:'💬',desc:'礼貌开口、万能表达',phrases:[
     ['안녕하세요.','annyeonghaseyo','您好。'],
     ['감사합니다.','gamsahamnida','谢谢。'],
     ['죄송합니다.','joesonghamnida','对不起／不好意思。'],
@@ -225,7 +225,7 @@ appendPhrase(4,['십 퍼센트 할인해 주실 수 있어요?','sip peosenteu h
 appendPhrase(4,['부탁드려요. 이 가격에 해 주실 수 있어요?','butakdeuryeoyo. i gagyeoge hae jusil su isseoyo','拜托，这个价格可以吗？']);
 appendPhrase(5,previousLessons[6].phrases[14],'6-14');
 appendPhrase(5,previousLessons[6].phrases[15],'6-15');
-lessons[5].desc='门票、寄存、拍照、游玩感受与问题求助';
+lessons[5].desc='门票、游玩感受和问题求助';
 const storagePrefix = 'jeju.v3';
 // Migrate device-local progress by original identity, never by the new position.
 if(localStorage.getItem(`${storagePrefix}.migrated`)!=='true'){
